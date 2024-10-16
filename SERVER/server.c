@@ -8,7 +8,7 @@
 #include <errno.h>
 
 #define NUMBERS_CONNECTION_CLIENTS_IN_WAIT 10
-#define PORT 20000
+#define PORT N
 
 void *connection_handler(void *a);
 int checkWinner(int matrix[][3]);
